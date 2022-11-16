@@ -1,5 +1,8 @@
 img{
     max-width:80%;
+    border-radius: 5px;
+    margin:auto;
+
 }
 
 body{
@@ -24,12 +27,15 @@ h1, p{
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     width:200px;
-    padding: 20px;
+    padding: 7%;
     text-align: center;
     color:#F1DDC2;
 }
 
 .photoDisplay{
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
     background-color:#BD9576;
     padding: 10%;
     margin-top:10%;
