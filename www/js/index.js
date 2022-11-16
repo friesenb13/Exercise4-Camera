@@ -21,7 +21,7 @@ function onDeviceReady() {
                 var myNewImage = fileEntry.toURL()
                 console.log(myNewImage);
                 // do something with URL, assign to src or create an html 
-                $("#takePhoto").after("<img src='"+ myNewImage + " '>")
+                $("#takePhoto").after("<div class='photoDisplay'><img src='"+ myNewImage + " '></div>")
             }, onError);
         }
 
